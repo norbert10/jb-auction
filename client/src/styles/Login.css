@@ -1,0 +1,110 @@
+
+
+/* .login-register-wrapper{
+    width: 460px;
+    padding: 10px;
+    margin: auto;
+    align-items: center; 
+} */
+.nav-buttons{
+    width: 100%;
+    height: 10px;
+    padding-top: 20px;
+    opacity: 1;
+    margin-bottom: 3em;
+    text-align: center;
+}
+button:focus{
+    outline: 0px;
+}
+button:active{
+    padding-bottom: 10px;
+    border-bottom: solid 2px #1059ff;
+}
+/*form styling*/
+.form-group{
+    position: relative;
+    z-index: 1;
+    background-color: #ffffff;
+   /* margin: 0 auto 100px;*/
+    margin: 0 auto;
+    padding: 45px;
+    /* max-width: 460px; */
+    width: 80%;
+    text-align: center;
+}
+.form-group input{
+    font-family: "Roboto", sans-serif;
+    outline: 5;
+    background-color: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0  15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+form#registerform{
+    position: relative;
+    display: none;
+}
+form, .forgot-panel{
+    position: relative;
+    transition: all .5s ease;
+}
+#loginBtb, #registerBtn{
+    transition: all .5s ease;
+}
+#loginform .submit{
+    width: 180px;
+    height: 30px;
+    margin: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    /* background-color: #ACAF50; */
+    background-color: teal;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 25px;
+    cursor: pointer;
+   
+}
+#loginform .submit:hover{
+    transition: background 0.3s ease;
+    font-weight: bold;
+    background-color: green;
+    color: white;
+    transform: scale(1.1);
+    width: 200px;
+    height: 40px;
+}
+
+.nav-buttons .toggle-btn{
+    width: 180px;
+    height: 30px;
+    margin: 10px;
+}
+.nav-buttons .toggle-btn:hover{
+    background-color: #ACAF50;
+    transition: background 1s ease;
+    font-weight: bold;
+}
+#registerform .submit{
+    width: 180px;
+    height: 30px;
+    margin: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: teal;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 25px;
+    cursor: pointer;
+}
+#registerform .submit:hover{
+    transition: background 0.3s ease;
+    font-weight: bold;
+    background-color: green;
+    transform: scale(1.1);
+    color: white;
+    width: 200px;
+    height: 40px;
+}

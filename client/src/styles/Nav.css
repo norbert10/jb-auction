@@ -1,0 +1,88 @@
+.Nav-container{
+    background-color : teal;
+    position: sticky;
+    top: 0%;
+    z-index: 1;
+}
+.Nav{
+    width: 80%;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-left: 200px;
+}
+.Nav-links{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-size: 24px;
+}
+.linkText{
+    padding: 10px;
+}
+.Nav-links:hover{
+    background-color: black;
+    transition: background 1s ease-in;
+    font-weight: bold;
+}
+.nav-section-two:hover{
+    font-weight: bold;
+    color: black;
+}
+.Menu-bar{
+    margin: 20px;
+    align-items: center;
+    color: black;
+    font-size: 30px;
+}
+.Menu-bar span{
+    color: black;
+}
+.Bar-Elements{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    background-color: rgb(0, 0, 0, 0.7);
+}
+.navbar-toggle{
+    display: flex;
+    flex-direction: column;
+}
+.nav-menu{
+    height: 0px;
+    background-color: rgba(37, 37, 37, 0.74);
+    transition: 1.5s;
+    margin: 40px;
+}
+.nav-manu-items{
+    display: none;
+    background-color: #060b26;
+    width: 20%;
+    margin-top: 0px;
+    top: 10px; 
+}
+.Menu-bar span:hover{
+    cursor: pointer;
+}
+
+.menu-hover{
+    width: 80%;
+    line-height: 40px;
+    padding: 10px;
+    font-size: 20px;
+    margin-left: 0px;
+    background-color: rgba(0,163,202,255);
+    color: white;
+    font-weight: bold;
+}
+
+.menu-hover:hover{
+    background-color: rgba(0,163,202,255);
+    color: white;
+    font-weight: bold;
+    margin-left: 15px;
+    transition: background 1s ease;
+}
+.strong-user{
+    text-transform: uppercase;
+}

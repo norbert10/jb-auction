@@ -1,0 +1,112 @@
+.parent{
+    text-align: center;
+    outline: auto;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    padding-bottom: 10px;
+}
+.category-select{
+    width: 200px;
+}
+select, input{
+    width: 300px;
+    height: 30px;
+    margin: 10px;
+}
+.submission-btns{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.submission-btns input{
+    margin: 15px;
+    
+}
+.send-btn, .cancel-btn{
+    width: 70px;
+}
+.item-details{
+    /* background-color: 	rgba(0,163,202,255); */
+    /* background-color: teal; */
+    width: 100%;
+    /* margin: 10px auto; */
+    height: 400px;
+}
+.item-description input, .item-description #category-select{
+    margin: 10px;
+    width: 100%;
+    background-color: #e3eaf4;
+    color: black;
+    font-size: 23px;
+    height: 40px;
+}
+
+.item-description{
+    width: 100%;
+}
+
+.submission-btns .send-btn, .submission-btns .cancel-btn{
+    text-transform: uppercase;
+
+}
+
+.submission-btns .send-btn:hover, .submission-btns .cancel-btn:hover{
+    background-color: teal;
+    cursor: pointer;
+    color: white;
+    transform: scale(1.5);
+}
+
+.item-description #img:hover{
+    cursor: pointer;
+}
+
+.success{
+    display: none;
+    font-size: 20px;
+}
+.success button{
+    width: 95px;
+    height: 55px;
+    margin: 15px;
+    background-color: grey;
+    color: white;
+    /* text-transform: uppercase; */
+}
+
+.success button:hover{
+    cursor: pointer;
+    background-color: teal;
+    transform: scale(1.2);
+}
+
+.auction-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+.auction-flex form{
+    width: 80%;
+}
+.form{
+    width: 80%;
+    height: 500px;
+    margin-left: 0;
+}
+
+.vertical{
+    border-left: 6px solid teal;
+  height: 500px;
+}
+
+.auction-image{
+    /* border-radius: 50%; */
+    width: 50%;
+    opacity: 0.9;
+}
+
+.auction-flex .toggle-auction{
+    border-radius: 50%;
+}
